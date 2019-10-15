@@ -11,7 +11,7 @@ public class HomeTask2_14 {
         int min = 100;
         int avg = 0;
         Random random = new Random();
-        for (int i = 0; i < number; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
             System.out.print(array[i] + " ");
             if (max < array[i]) {

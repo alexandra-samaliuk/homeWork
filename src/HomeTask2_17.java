@@ -7,16 +7,13 @@ public class HomeTask2_17 {
         Scanner inNumber = new Scanner(System.in);
         int number = inNumber.nextInt();
         int[][] array = new int[number][];
-        int[] arrayJ = new int[number];
         Random random = new Random();
         for (int i = 0; i < number; i++) {
-            arrayJ[i] = random.nextInt(10);
-            array[i] = new int[arrayJ[i]];
-            System.out.print(arrayJ[i] + " ");
+            array[i] = new int[random.nextInt(9)+1];
         }
         System.out.println();
-        for (int i = 0; i < number; i++) {
-            for (int j = 0; j < arrayJ[i]; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = random.nextInt(200);
                 System.out.print(array[i][j] + " ");
             }
