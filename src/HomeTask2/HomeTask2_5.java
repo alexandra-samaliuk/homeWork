@@ -1,5 +1,3 @@
-package HomeTasks.HomeTask2;
-
 import java.util.Scanner;
 
 public class HomeTask2_5 {
