@@ -1,3 +1,5 @@
+package HomeTask2;
+
 public class HomeTask2_9 {
     public static void main(String[] args) {
         int i = 1;
