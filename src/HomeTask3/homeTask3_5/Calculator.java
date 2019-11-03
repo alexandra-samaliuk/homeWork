@@ -1,4 +1,4 @@
-package HomeTask3;
+package HomeTask3.homeTask3_5;
 
 public class Calculator {
     private int result;

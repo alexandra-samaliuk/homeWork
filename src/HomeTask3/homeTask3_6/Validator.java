@@ -1,4 +1,4 @@
-package HomeTask3;
+package HomeTask3.homeTask3_6;
 
 public class Validator {
     private String cardNumber;

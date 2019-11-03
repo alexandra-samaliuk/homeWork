@@ -1,4 +1,4 @@
-package HomeTask3;
+package HomeTask3.homeTask3_6;
 
 public class HomeTask3_6 {
     public static void main(String[] args) {
