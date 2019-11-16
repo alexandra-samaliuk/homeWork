@@ -1,6 +1,6 @@
 package HomeTask4.homeTask4_1;
 
-public class Cat extends Animals implements AnimalMovement, CanEat, CanBeEaten {
+public class Cat extends Animals implements AnimalMovement, Eatable {
     public Cat(String animalType, String animalFamily, String animalBread) {
         super(animalType, animalFamily, animalBread);
     }
@@ -16,12 +16,8 @@ public class Cat extends Animals implements AnimalMovement, CanEat, CanBeEaten {
     }
 
     @Override
-    public void canBeEaten() {
+    public void eatable() {
         System.out.println("Cat can be eaten by somebody");
-    }
-
-    @Override
-    public void canEat() {
         System.out.println("Cat can eat mouse");
     }
 }

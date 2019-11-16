@@ -1,6 +1,6 @@
 package HomeTask4.homeTask4_1;
 
-public class Mouse extends Animals implements AnimalMovement, CanBeEaten {
+public class Mouse extends Animals implements AnimalMovement, Eatable {
     public Mouse(String animalType, String animalFamily, String animalBread) {
         super(animalType, animalFamily, animalBread);
     }
@@ -16,7 +16,7 @@ public class Mouse extends Animals implements AnimalMovement, CanBeEaten {
     }
 
     @Override
-    public void canBeEaten() {
+    public void eatable() {
         System.out.println("Mouse can be eaten by somebody");
     }
 }

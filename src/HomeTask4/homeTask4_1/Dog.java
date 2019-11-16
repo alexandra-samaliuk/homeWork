@@ -1,6 +1,6 @@
 package HomeTask4.homeTask4_1;
 
-public class Dog extends Animals implements AnimalMovement, CanEat {
+public class Dog extends Animals implements AnimalMovement, Eatable {
     public Dog(String animalType, String animalFamily, String animalBread) {
         super(animalType, animalFamily, animalBread);
     }
@@ -16,7 +16,7 @@ public class Dog extends Animals implements AnimalMovement, CanEat {
     }
 
     @Override
-    public void canEat() {
+    public void eatable() {
         System.out.println("Dog can eat somebody");
     }
 }
