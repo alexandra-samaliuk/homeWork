@@ -6,14 +6,13 @@ public class HomeTask4_1 {
         Cat cat = new Cat("плотоядное", "семейство кошачих", "тигр");
         Dog dog = new Dog("плотоядное", "семейство собачьих", "лабродор");
         mouse.animalSound();
-        mouse.canBeEaten();
+        mouse.eatable();
         mouse.animalMovements();
         cat.animalSound();
-        cat.canEat();
-        cat.canBeEaten();
+        cat.eatable();
         cat.animalMovements();
         dog.animalSound();
-        dog.canEat();
+        dog.eatable();
         dog.animalMovements();
     }
 }
