@@ -9,8 +9,8 @@ public class HomeTask7_1 {
         System.out.println("Enter the file name:");
         Scanner scanner = new Scanner(System.in);
         String fileName = scanner.nextLine();
-        final String FILENAME2 = "E://HomeTasks//src//HomeTask7//homeTask7_1_2//" + fileName;
-        try (FileInputStream fileInputStream = new FileInputStream(FILENAME2)) {
+        String fileName2 = "E://HomeTasks//src//HomeTask7//homeTask7_1_2//" + fileName;
+        try (FileInputStream fileInputStream = new FileInputStream(fileName2)) {
             int symbol = 0;
             while (fileInputStream.read() != -1) {
                 if (fileInputStream.read() > symbol) {
